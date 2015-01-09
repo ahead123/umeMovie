@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TMdb</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="app.js"></script>
+</head>
+<body>
+	<div class="jumbotron well">
+		<div class="container">
+			<div class="col-md-12 text-center">
+				<h1>Movie Poster Finder</h1>
+			</div>
+		</div>
+	</div>
+
+	<div id="main">
+		<div class="container">
+			<div class="col-md-12 text-center">
+				<form class="form">
+					<input type="text" placeholder="enter a movie" id="term" class="text-center"/>
+					<br /><br />
+					<a href="#" id="movieLoader" class="btn btn-primary">Find Movie</a>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div class="movies">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4" id="poster">
+					
+				</div>
+				<div class="col-md-4" id="titles">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
