@@ -1,6 +1,10 @@
 $(document).ready(function() {
 
-	
+	$('#movieLoader').on('click', getPoster);
+		$('button #loadTrailer').on('click', '#loadTrailer', function() {
+			alert('hello');
+			//getTrailer();
+		});
 
 		var getPoster = function() {
 
@@ -40,10 +44,7 @@ $(document).ready(function() {
 				}); // end getJSON call
 		} // end getTrailer
 
-		$('#movieLoader').on('click', getPoster);
-		$('#loadTrailer').on('click', function() {
-			getTrailer();
-		});
+		
 		//$('button').on('click','#loadTrailer', getTrailer);
 
 
